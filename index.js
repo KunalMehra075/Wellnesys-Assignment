@@ -5,7 +5,6 @@ const cors = require("cors")
 const app = express();
 
 
-
 // ? MIDDLEWARES
 app.use(cors())
 app.use(express.json());
@@ -13,6 +12,7 @@ app.use(logger)
 app.use("/users", UserRouter)
 
 
+//* Base Route
 app.get("/", (req, res) => {
     try {
         res.status(200).json({ Message: "Welcome to Technical-Assignment Web Application" });
@@ -22,7 +22,17 @@ app.get("/", (req, res) => {
 });
 
 
-// ? LISTNING TO SERVER
-app.listen(4500, () => {
-    console.log("Server Running in port 4500");
+//! Error Handling Route
+app.use((req, res) => {
+    let Method = req.method
+    let URL = req.url
+    res.status(404).json({ Message: "Route Not Found", Method, URL })
+})
+
+
+//todo<----------- LISTNING TO SERVER----------->
+
+const PORT = 4500
+app.listen(PORT, () => {
+    console.log(`Server Running in port ${PORT}`);
 })
