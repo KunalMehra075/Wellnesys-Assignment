@@ -16,9 +16,21 @@ Content-Type: application/json
   "email": "f@gmail.com"
 }
 
-# {
-#   "name": "Rahul Kumar",
-#   "age": "19",
-#   "gender": "male",
-#   "email": "r@gmail.com"
-# }
+######
+###? Deployed Testing-------------------------------------------------------------------------->
+
+GET https://wellnesys-assignment-k7fp.onrender.com/
+
+###
+GET https://wellnesys-assignment-k7fp.onrender.com/users
+
+###
+POST https://wellnesys-assignment-k7fp.onrender.com/users
+Content-Type: application/json
+
+{
+  "name": "Rahul Kumar",
+  "age": "19",
+  "gender": "male",
+  "email": "r@gmail.com"
+}

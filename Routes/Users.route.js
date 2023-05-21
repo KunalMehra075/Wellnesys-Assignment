@@ -1,5 +1,6 @@
 const express = require("express");
 const UserRouter = express.Router()
+const EventLogger = require("../Middlewares/EventLogger");
 
 const path = require("path");
 const fs = require("fs");
@@ -12,7 +13,6 @@ UserRouter.get("/", (req, res) => {
     try {
         let Users = fs.readFileSync(UsersPath, "utf-8")
         Users = JSON.parse(Users)
-
         res.status(200).json({ Message: "Get All Users", Users });
     } catch (err) {
         console.log(err);
@@ -39,10 +39,11 @@ UserRouter.post("/", (req, res) => {
                 return res.status(501).json({ Message: "Error in creating a new user", err });
             }
         })
-
+        EventLogger("Info", `New User Created with email ${NewUser.email}`)
         return res.status(201).json({ Message: "User Successfully Posted" });
     } catch (err) {
         console.log(err);
+        EventLogger("Error", `User Creation Failed, Error${err}`,)
         res.status(500).json({ Error: err })
     }
 });

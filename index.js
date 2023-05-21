@@ -1,9 +1,11 @@
 const logger = require("./Middlewares/Logger.middleware");
 const UserRouter = require("./Routes/Users.route");
+const EventLogger = require("./Middlewares/EventLogger");
 const express = require("express");
-const cors = require("cors")
-const app = express();
+const cors = require("cors");
+const os = require("os")
 
+const app = express();
 
 // ? MIDDLEWARES
 app.use(cors())
@@ -34,5 +36,9 @@ app.use((req, res) => {
 
 const PORT = 4500
 app.listen(PORT, () => {
+
+    EventLogger("Success", `Server Running Successfully, Host: ${os.hostname()}`)
     console.log(`Server Running in port ${PORT}`);
 })
+
+// The brief introduction about assignment is in Readme.md.

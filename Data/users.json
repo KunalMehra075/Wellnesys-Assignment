@@ -1,14 +1,1 @@
-[
-  {
-    "name": "Kunal Mehra",
-    "age": "19",
-    "gender": "male",
-    "email": "k@gmail.com"
-  },
-  {
-    "name": "Rahul Kumar",
-    "age": "19",
-    "gender": "male",
-    "email": "r@gmail.com"
-  }
-]
+[{"name":"Kunal Mehra","age":"19","gender":"male","email":"k@gmail.com"},{"name":"Riya sharma","age":"19","gender":"female","email":"f@gmail.com"},{"name":"Rahul Kumar","age":"19","gender":"male","email":"r@gmail.com"}]

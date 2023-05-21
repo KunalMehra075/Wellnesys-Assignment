@@ -1,34 +1,22 @@
-{"Method":"GET","Route":"/users","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
-{"Method":"GET","Route":"/users","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"Thunder Client (https://www.thunderclient.com)","Body":{"Name":"Kunal Mehra","Age":"19","Gender":"Male","Email":"kunalmehra240304@gmail.com"},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"Thunder Client (https://www.thunderclient.com)","Body":{"Name":"Kunal Mehra","Age":"19","Gender":"Male","Email":"kunalmehra240304@gmail.com"},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"Thunder Client (https://www.thunderclient.com)","Body":{"name":"Kunal Mehra","age":"19","gender":"Male"},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"vscode-restclient","Body":{"name":"Kunal Mehra","age":"19","gender":"male","email":"k@gmail.com"},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"vscode-restclient","Body":{"name":"Rahul Kumar","age":"19","gender":"male","email":"r@gmail.com"},"IP":"::ffff:127.0.0.1"}
-{"Method":"GET","Route":"/gulli","User_Agent":"Thunder Client (https://www.thunderclient.com)","Body":{"name":"Kunal Mehra","age":"19","gender":"male","email":"k@gmail.com"},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/gulli","User_Agent":"Thunder Client (https://www.thunderclient.com)","Body":{"name":"Kunal Mehra","age":"19","gender":"male","email":"k@gmail.com"},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/df","User_Agent":"Thunder Client (https://www.thunderclient.com)","Body":{"name":"Kunal Mehra","age":"19","gender":"male","email":"k@gmail.com"},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/df/dsffas/sdfasd/fasdf","User_Agent":"Thunder Client (https://www.thunderclient.com)","Body":{"name":"Kunal Mehra","age":"19","gender":"male","email":"k@gmail.com"},"IP":"::ffff:127.0.0.1"}
-{"Method":"GET","Route":"/users","User_Agent":"Thunder Client (https://www.thunderclient.com)","Body":{"name":"Kunal Mehra","age":"19","gender":"male","email":"k@gmail.com"},"IP":"::ffff:127.0.0.1"}
-{"Method":"GET","Route":"/","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
-{"Method":"GET","Route":"/users","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
-{"Method":"POST","Route":"/users","User_Agent":"vscode-restclient","Body":{"name":"Riya sharma","age":"19","gender":"female","email":"f@gmail.com"},"IP":"::ffff:127.0.0.1"}
-{"Method":"GET","Route":"/users","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
+{"Type":"Success","Message":"Server Running Successfully","Time":"2023-05-21T09:05:34.749Z"}
+{"Type":"Info","Method":"GET","Route":"/","Time":"2023-05-21T09:05:46.567Z","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
+{"Type":"Info","Method":"GET","Route":"/users","Time":"2023-05-21T09:05:54.404Z","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
+{"Type":"Info","Method":"GET","Route":"/users","Time":"2023-05-21T09:05:57.919Z","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
+{"Type":"Info","Method":"GET","Route":"/users","Time":"2023-05-21T09:05:58.094Z","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
+{"Type":"Info","Method":"GET","Route":"/users","Time":"2023-05-21T09:05:58.270Z","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
+{"Type":"Info","Method":"GET","Route":"/users","Time":"2023-05-21T09:05:58.468Z","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
+{"Type":"Info","Method":"POST","Route":"/users","Time":"2023-05-21T09:06:04.449Z","User_Agent":"vscode-restclient","Body":{"name":"Riya sharma","age":"19","gender":"female","email":"f@gmail.com"},"IP":"::ffff:127.0.0.1"}
+{"Type":"Info","Message":"New User Created with email f@gmail.com","Time":"2023-05-21T09:06:04.452Z"}
+{"Type":"Success","Message":"Server Running Successfully","Time":"2023-05-21T09:06:04.864Z"}
+{"Type":"Info","Method":"POST","Route":"/users","Time":"2023-05-21T09:06:15.810Z","User_Agent":"vscode-restclient","Body":{"name":"Rahul Kumar","age":"19","gender":"male","email":"r@gmail.com"},"IP":"::ffff:127.0.0.1"}
+{"Type":"Info","Message":"New User Created with email r@gmail.com","Time":"2023-05-21T09:06:15.812Z"}
+{"Type":"Success","Message":"Server Running Successfully","Time":"2023-05-21T09:06:16.212Z"}
+{"Type":"Info","Method":"GET","Route":"/","Time":"2023-05-21T09:06:27.115Z","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
+{"Type":"Info","Method":"GET","Route":"/","Time":"2023-05-21T09:06:28.163Z","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
+{"Type":"Info","Method":"GET","Route":"/","Time":"2023-05-21T09:06:28.671Z","User_Agent":"vscode-restclient","Body":{},"IP":"::ffff:127.0.0.1"}
+{"Type":"Success","Message":"Server Running Successfully","Time":"2023-05-21T09:11:07.014Z"}
+{"Type":"Success","Message":"Server Running Successfully","Time":"2023-05-21T09:11:54.680Z"}
+{"Type":"Success","Message":"Server Running Successfully","Time":"2023-05-21T09:12:05.362Z"}
+{"Type":"Success","Message":"Server Running Successfully","Time":"2023-05-21T09:12:10.867Z"}
+{"Type":"Success","Message":"Server Running Successfully","Time":"2023-05-21T09:12:21.165Z"}
+{"Type":"Success","Message":"Server Running Successfully, Host: Kunal-Legion-5","Time":"2023-05-21T09:13:16.931Z"}
