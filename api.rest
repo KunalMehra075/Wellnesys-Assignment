@@ -1,0 +1,24 @@
+
+### The Base Route
+GET http://localhost:4500/
+
+###
+GET http://localhost:4500/users
+
+###
+POST http://localhost:4500/users
+Content-Type: application/json
+
+{
+  "name": "Riya sharma",
+  "age": "19",
+  "gender": "female",
+  "email": "f@gmail.com"
+}
+
+# {
+#   "name": "Rahul Kumar",
+#   "age": "19",
+#   "gender": "male",
+#   "email": "r@gmail.com"
+# }
